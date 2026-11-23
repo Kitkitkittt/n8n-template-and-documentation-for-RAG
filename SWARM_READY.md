@@ -21,7 +21,7 @@ If a `swarm-ready` skill is installed, load it. Otherwise execute the documented
 
 ## Repository starting point
 
-Read: [README.md](README.md).
+Read the [catalog source map](README.md#repository-structure) and [offline catalog review](README.md#offline-catalog-review). Treat the files as reference material, not a configured RAG stack.
 
 Continue an existing approved issue or a clearly scoped user objective after inspecting the source map below. If none is selected, return the smallest useful improvement and its verifier as the handoff; do not begin a portfolio-wide rewrite.
 
@@ -41,7 +41,7 @@ The base above is an inspection snapshot, not a permanent working branch. Refres
 
 ## Verification starting point
 
-No executable acceptance command was established by this bounded source inspection. Read `README.md` and record the narrowest existing check before implementation. Do not invent a `test` command or infer that the repository has no tests from this gap. For a documentation-only task, check links, factual source anchors and whitespace; do not build unrelated application code.
+Use the README's Git inventory from the repository root and run `git --no-lazy-fetch diff --check HEAD` for local edits. Review links against the tracked directory names and distinguish file presence from workflow validation. Do not run utility scripts, inspect or copy credentials, connect services, send the corpus to a model, or import, activate, or execute workflow exports for a docs check.
 
 ## Required handoff result
 
